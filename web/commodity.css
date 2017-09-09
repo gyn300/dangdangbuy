@@ -1,0 +1,55 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-size: 13px;
+    font-family: Arial;
+
+}
+a{
+    text-decoration:none;
+}
+#container{
+
+    width: 1200px;
+    height: 900px;
+    margin: 10px auto;
+    text-align: left;
+
+}
+#login{
+    background: #f9faed;
+}
+h3{
+    margin-left: 20px;
+}
+dt{
+
+    float: left;
+
+}
+
+#commodity{
+    margin-left: 200px;
+    clear: left;
+}
+#commodity img{
+    margin:0px 20px 20px 20px;
+    float: left;
+    height: 100px;
+
+
+}
+dt,dd{
+
+    margin-top: 10px;
+
+}
+li{
+    list-style-type: none;
+}
+#foot{
+    clear: left;
+}
+#foot p{
+    text-align: center;
+}

@@ -1,0 +1,132 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-size: 13px;
+    font-family: Arial;
+
+}
+a{
+    text-decoration:none;
+}
+#container{
+    width: 1200px;
+    height: 900px;
+    margin: 10px auto;
+    text-align: left;
+
+
+}
+/*当鼠标放到文本框时，提示文本的样式*/
+.import_prompt{
+    width: 240px;
+    height: 38px;
+    border:solid 1px #ffcd00;
+    background-color:#ffffda;
+    padding-left:5px;
+    line-height:20px;
+    float: right;
+}
+/*当文本框内容不符合要求时，提示文本的样式*/
+.error_prompt{
+    width: 240px;
+    height: 38px;
+    border:solid 1px #ff3300;
+    background-color:#fff2e5;
+    float: right;
+    background-repeat:no-repeat;
+    background-position:5px 2px;
+    padding-left:5px;
+    line-height:20px;
+}
+/*当文本框内容输入正确时，提示文本的样式*/
+.ok_prompt{
+    width: 240px;
+    height: 38px;
+    border:solid 1px #01be00;
+    background-color:#e6fee4;
+    float: right;
+    background-repeat:no-repeat;
+    background-position:5px 2px;
+    padding-left:5px;
+    line-height:20px;
+}
+.prompthide{
+    display: none;
+}
+#left{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 18%;
+    height: 600px;
+    float: left;
+    background: #fff4d7;
+    border: 1px solid #e3e0da;
+    margin-bottom: 30px;
+}
+
+#left p{
+    margin-top: 0px;
+    padding:5px;
+    font-weight: bold;
+    background: #f68501;
+    color: white;
+    font-size: 18px;
+
+}
+dl dd{
+    margin-left: 10px;
+    font-size: 15px;
+    list-style-type:none;
+    padding: 5px;
+}
+dl dt{
+    color: #ff6613;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size:16px ;
+    font-weight: bold;
+}
+#right{
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 78%;
+    height: 600px;
+    float: left;
+    border: 1px solid #e3e0da;
+    margin-bottom: 30px;
+}
+.hide{
+
+    width: 450px;
+    margin: 40px 50px 0px 150px;
+    display: none;
+}
+#checkbookId{
+    margin-left: 5px;
+}
+#checkbookId h3{
+
+    float: left;
+}
+#page{
+    font-size: 15px;
+    clear: left;
+
+}
+
+#message{
+    color: red;
+    margin-left:150px ;
+
+
+}
+#pageMessage{
+    clear: left;
+}
+
+#foot{
+    clear: left;
+}
+#foot p{
+    text-align: center;
+}

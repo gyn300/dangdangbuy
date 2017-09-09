@@ -1,0 +1,87 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-size: 13px;
+    font-family: Arial;
+
+}
+#container{
+    width: 1200px;
+    height: 900px;
+    margin: 10px auto;
+    text-align: left;
+
+
+}
+/*当鼠标放到文本框时，提示文本的样式*/
+.import_prompt{
+    width: 240px;
+    height: 38px;
+    border:solid 1px #ffcd00;
+    background-color:#ffffda;
+    padding-left:5px;
+    line-height:20px;
+    float: left;
+}
+/*当文本框内容不符合要求时，提示文本的样式*/
+.error_prompt{
+    width: 240px;
+    height: 38px;
+    border:solid 1px #ff3300;
+    background-color:#fff2e5;
+    float: left;
+    background-repeat:no-repeat;
+    background-position:5px 2px;
+    padding-left:5px;
+    line-height:20px;
+}
+/*当文本框内容输入正确时，提示文本的样式*/
+.ok_prompt{
+    width: 240px;
+    height: 38px;
+    border:solid 1px #01be00;
+    background-color:#e6fee4;
+    float: left;
+    background-repeat:no-repeat;
+    background-position:5px 2px;
+    padding-left:5px;
+    line-height:20px;
+}
+#middle{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#middle p{
+    text-align: center;
+}
+#middle h4{
+    color: red;
+    margin-bottom: 0px;
+}
+
+dl{
+    clear:both;
+}
+dt,dd{
+    float:left;
+    border: 1px solid #e4e8e8;
+    line-height:40px;
+}
+dt{
+    clear:left;
+    text-align: right;
+    width: 150px;
+    height: 40px;
+    background: #e8fbff;
+}
+dd{
+    width: 180px;
+    height: 40px;
+    margin-left: 5px;
+}
+#foot{
+    clear: left;
+}
+#foot p{
+    text-align: center;
+}

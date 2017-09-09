@@ -1,0 +1,36 @@
+<%-- Created by IntelliJ IDEA. --%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+  <!--整体div-->
+    <div>
+      <!--登录注册-->
+      <div>
+        login
+      </div>
+      <!--banner-->
+      <div>
+          banner
+      </div>
+      <!--左侧-->
+      <div>
+        left
+      </div>
+      <!--中间-->
+      <div>
+        middle
+      </div>
+      <!--右侧-->
+      <div>
+        right
+      </div>
+      <!--底部-->
+      <div>
+        foot
+      </div>
+    </div>
+  </body>
+</html>

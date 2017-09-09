@@ -1,0 +1,53 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-size: 13px;
+    font-family: Arial;
+
+}
+#container{
+    width: 1200px;
+    height: 900px;
+    margin: 10px auto;
+    text-align: left;
+
+
+}
+#top hr{
+    border: 2px solid #f27b21;
+}
+#left{
+    float: left;
+    padding: 40px 20px 0px 200px;
+}
+#left ul li{
+    font-weight: bold;
+}
+#right{
+    float: left;
+    border: 1px solid #afaead;
+    height: 350px;
+    width: 270px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    background: #f9f9f9;
+}
+#right hr{
+    margin-top: 20px;
+    margin-left:10px ;
+    margin-right: 10px;
+    border: 1px dotted #dedddc;
+}
+#right h3{
+    margin-left: 10px;
+}
+#right a{
+    font-weight: bold;
+    float: right;
+}
+#foot{
+    clear: left;
+}
+#foot p{
+    text-align: center;
+}

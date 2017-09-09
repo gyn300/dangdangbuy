@@ -1,0 +1,23 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-size: 13px;
+    font-family: Arial;
+
+}
+
+#container{
+    width: 1200px;
+    height: 900px;
+    margin: 10px auto;
+    text-align: left;
+
+}
+table{
+    border: 1px solid #9ea890;
+    background: #fefbf2;
+}
+
+td{
+    padding-left: 50px;
+}
